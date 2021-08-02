@@ -1,0 +1,287 @@
+
+        
+        label, .control-label {
+    font-weight: 600;
+}
+
+		/*   @media only screen and (max-width: 768px) {
+  				.auth {
+  				  #background-color: lightblue;
+  				  padding-left: 0%;
+   				padding-right: 0%;
+   				height: 600px;
+ 				 }
+ 				 .auth-content{
+            padding: 30px 20px; */
+            	/* height: 600px; 
+            overflow: scroll; */
+             
+     /*   	 }
+		}  	 */
+		
+ 
+        @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+			.auth {
+  			 
+    		background-color: #667280;
+    		 height:auto;
+ 				 }
+ 				 .auth-content{
+                padding: 30px 20px;
+                 
+            	/* height: 600px; 
+            overflow: scroll; */
+            
+             
+        }
+         .imglogo{
+        
+        }
+        .paymentimg{
+        height:43px;
+        }
+        }
+         @media (min-width:375px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+			.auth {
+  			 
+    		background-color: #667280;
+    		 height:auto;
+ 				 }
+ 				 .auth-content{
+                padding: 30px 20px;
+                 
+            	/* height: 600px; 
+            overflow: scroll; */
+            
+             
+        }
+        .paymentimg{
+        height:43px;
+        }
+        }
+        @media (min-width:425px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+			.auth {
+  			 
+    		background-color: #667280;
+    		 height:auto;
+ 				 }
+ 				 .auth-content{
+                padding: 30px 20px;
+                 
+            	/* height: 600px; 
+            overflow: scroll; */
+            
+             
+        }
+        .paymentimg{
+        height:43px;
+        }
+        }
+        @media (min-width:625px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+			.auth {
+  			 padding-left: 28%;
+   			padding-right: 28%;
+    		background-color: #667280;
+    		 height:auto;
+ 				 }
+ 				 .auth-content{
+                padding: 30px 20px;
+                 
+            	/* height: 600px; 
+            overflow: scroll; */
+            
+             
+        }
+        .imglogo{
+         
+        }
+        .paymentimg{
+        height:35px;
+        }
+        }
+        
+         @media (min-width:700px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+			.auth {
+  			 padding-left: 28%;
+   			padding-right: 28%;
+    		background-color: #667280;
+    		 height:auto;
+ 				 }
+ 				 .auth-content{
+                padding: 30px 20px;
+                 
+            	/* height: 600px; 
+            overflow: scroll; */
+            
+             
+        }
+        .paymentimg{
+         height:41px;
+        }
+        }
+@media (min-width:768px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+		.auth {
+  			padding-left: 28%;
+   			padding-right: 28%;
+    		background-color: #667280;
+    		 height:auto;
+ 			 }
+ 				 .auth-content{
+                padding: 30px 20px;
+                 
+            	/* height: 600px; 
+            overflow: scroll; */
+            
+             
+        }
+         .paymentimg{
+        height:43px;
+        }
+         }
+ 
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+		 .auth {
+  			  padding-left: 30%;
+   			padding-right: 30%;
+    		background-color: #667280;
+    		height:auto;
+ 				 }
+ 				 .auth-content{
+                padding: 30px 20px;
+                 
+            	/* height: 600px; 
+            overflow: scroll; */
+            
+             
+        }
+        
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+.auth {
+  			  padding-left: 30%;
+   			padding-right: 30%;
+    		background-color: #667280;
+    		height:auto;
+ 				 }
+ 				 .auth-content{
+                padding: 30px 20px;
+                 
+            	/* height: 600px; 
+            overflow: scroll; */
+            
+             
+        } }
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+.auth {
+  			 padding-left: 30%;
+   			padding-right: 30%;
+    		background-color: #667280;
+    		 height:auto;
+ 				 }
+ 				 .auth-content{
+                padding: 30px 20px;
+                 
+            	/* height: 600px; 
+            overflow: scroll; */
+            
+             
+        }  }
+				
+			/* Let's get this party started */
+
+				::-webkit-scrollbar {
+  						width: 7px;
+  						height: 7px;
+				}
+
+				/* Track */
+
+				::-webkit-scrollbar-track {
+  				border-radius: 0;
+				}
+
+					/* Handle */
+
+				::-webkit-scrollbar-thumb {
+ 					 border-radius: 0;
+ 					 background: #976eef;
+ 					 ;
+				}
+
+					::-webkit-scrollbar-thumb:window-inactive {
+						  background: #5e35b7;
+				}
+				
+				*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.card {
+    box-shadow: 0px 0px 25px black;
+    width:100%;
+    border: none;
+}
+.form-check{
+    margin-left: 25px;
+}
+.control-label {
+    font-weight: 600;
+}
+#choosepaymentGatewayId3, #choosepayment{
+	/* padding-left: 25px; */
+	    padding-top: 15px;
+	        padding-left: 15px;
+	border: 1px solid #ced4da;
+}
+
+input[type="text"], .form-control {
+    border-left: green 5px solid;
+}  
+.new-header {
+    background: #2c2cff;
+    background: linear-gradient(to right, #593392, #854ddc);
+    color: white;
+    margin-top: 0;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.new-body {
+    /* padding: 15px 30px; */
+    padding: 0px 0px;
+}         
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 5px 0.2rem rgba(0,123,255,.25);
+}
+input:required:valid, textarea:required:valid, select:required:valid, input[readonly]:required:valid {
+  border-left: 5px solid green;
+}
+input:invalid, textarea:invalid, select:invalid,  input[readonly]:invalid {
+  border-left: 5px solid red;
+}
+input:focus:valid, textarea:focus:valid select:focus:valid,  input[readonly]:focus:valid{
+  border-left: 5px solid green;
+}
+input:focus:invalid, textarea:focus:invalid, select:focus:invalid, input[readonly]:focus:invalid {
+  border-left: 5px solid red;
+}
+.alert {
+	  padding: 20px;
+	  background-color: #f44336;
+	  color: white;
+	  opacity: 1;
+	  transition: opacity 0.6s;
+	  margin-bottom: 15px;
+	}
+/* .card .card-header .control-label{
+	color:white;
+}    */
+body{
+	background: #667280;
+}
